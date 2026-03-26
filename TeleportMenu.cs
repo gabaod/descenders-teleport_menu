@@ -39,7 +39,7 @@ public class TeleportMenu : ModBehaviour
 
     [Tooltip("World-space X/Z coordinate of the map image's bottom-left corner.\n" +
              "Y (height) is ignored – only X and Z matter for a top-down projection.")]
-    public Vector2 mapWorldMin = new Vector2(-500f, -500f);
+    public Vector2 mapWorldMin = new Vector2(0f, 0f);
 
     [Tooltip("World-space X/Z coordinate of the map image's top-right corner.\n" +
              "Y (height) is ignored – only X and Z matter for a top-down projection.")]
