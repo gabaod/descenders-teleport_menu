@@ -326,6 +326,7 @@ public class TeleportMenu : ModBehaviour
         }
 
         _playerObject.transform.position = zone.transform.position;
+        _playerObject.transform.rotation = zone.transform.rotation; 
 
         if (hasRb)
         {
